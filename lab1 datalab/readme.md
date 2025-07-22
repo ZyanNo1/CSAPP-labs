@@ -34,7 +34,7 @@
 
 #### **验证截图：**
 
-![lab1_result](C:\Users\Zyan\Desktop\csapp\lab1 datalab\lab1_result.png)
+![lab1_result](./lab1_result.png)
 
  
 
