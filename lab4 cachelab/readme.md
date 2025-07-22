@@ -1,6 +1,6 @@
 # CSAPP lab4 Cachelab
 
-### Part I:  Cache Simulator
+## Part I:  Cache Simulator
 
 ​	第一部分要write a cache stimulator from scratch，用 LRU 替换策略，并且和要和参考样例输出一模一样。模拟器从文件中读取命令，统计每组操作hit, miss, eviction并输出。
 ​	我选择用定义两个结构体来模拟缓存：`Cache` 里面有 S, E, B三个参数和一个二维的 `Line` 数组；`Line` 结构体就是 `cache line`, 由 `valid`, `tag` 和 `time` 组成，`time` 越大表示距离最近访问越久，以此来实现 LRU 策略。定义结构体`cache`，`hit`, `miss`, `eviction`计数器（初始化为0），verbose和字符串数组t（用来读文件的）为全局变量，方便调用。
@@ -16,7 +16,7 @@
 
 
 
-### Part II: **Matrix Transpose**
+## Part II: **Matrix Transpose**
 
 第二部分是要用最少的miss来完成矩阵的转置，内存 *s* = 5, *E* = 1, *b* = 5，也就是说32组cache set，每组一条cache line 中 block是32位，也就是可以存放 8 个int。
 
@@ -28,7 +28,7 @@
 
 
 
-### Part III:  `csim` 的 flowchart
+## Part III:  `csim` 的 flowchart
 
 ```
 开始(main)
