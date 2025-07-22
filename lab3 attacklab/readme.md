@@ -30,12 +30,12 @@
 
 ### **成功截图：**
 
-![image1](.\pictures\image1.png)
+![image1](./pictures/image1.png)
 
-![image2](.\pictures\image2.png)
+![image2](./pictures/image2.png)
 
-![image3](.\pictures\image3.png)
+![image3](./pictures/image3.png)
 
-![image4](.\pictures\image4.png)
+![image4](./pictures/image4.png)
 
-![image5](.\pictures\image5.png)
+![image5](./pictures/image5.png)
